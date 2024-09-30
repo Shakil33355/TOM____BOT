@@ -106,7 +106,7 @@ https://www.facebook.com/GOLAPI.NUNUR.ODHIKARI.TOM.YOUR.NEXT.VATAR
         let avtAnime = (await axios.get(encodeURI(
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
-          'https://i.imgur.com/dDSh0wc.jpeg',
+          'https://i.imgur.com/dDSh0wc.jpg',
           'https://i.imgur.com/UucSRWJ.jpg',
           'https://i.imgur.com/OYzHKNE.jpg',
           'https://i.imgur.com/V5L9dPi.jpg',
